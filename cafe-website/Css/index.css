@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 #bkg{
-    background-image: url('/images/coverpic.jpg');
+    background-image: url('../images/coverpic.jpg');
     background-size:cover ;
     width: 100%;
     height: 600px;
@@ -13,7 +13,7 @@ body{
 }
 #bkg-all{
     
-  background-image: url('/images/coverpic.jpg');
+  background-image: url('../images/coverpic.jpg');
     background-size:cover ;
     width: 100%;
     padding-top: 40px;

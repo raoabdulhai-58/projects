@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url("/image/bkimg.jpg");
+    background: url('../image/bkimg.jpg');
     font-family: sans-serif;
     background-size: cover;
 }

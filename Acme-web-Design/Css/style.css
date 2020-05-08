@@ -60,7 +60,7 @@ header a:hover{
 }
 #showcase{
      min-height: 400px;
-     background-image: url('/images/backimg.jpg') ;
+     background-image: url('../images/backimg.jpg') ;
      color: white;
      text-align: center;
 }
