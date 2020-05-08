@@ -1,0 +1,52 @@
+
+body{
+    font-size: 12px;
+    color: white;  
+}
+#top{
+    text-align: center;
+}
+#top h2{
+    text-decoration: underline;
+    font-size: 25px;
+    color: slateblue;
+    margin-top: 0;
+}
+#container1{
+    width: 1200px;
+    margin: auto;
+}
+#tbl{
+    width: 65%;
+    margin: auto;
+    background-color: slateblue;
+    padding: 10px;
+    border: 2px solid darkblue;
+}
+.rt{
+    width: 30%;
+    padding: 20px 5px;
+}
+#wrapper{
+    text-align: center;
+}
+#thnk-logo{
+    width: 200px;
+    height: 200px;
+}
+#container2{
+    width: 40%;
+    margin: 7% auto;
+}
+.btn{
+    width: 10%;
+    height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+    margin: 5px;
+}
+
+
+
