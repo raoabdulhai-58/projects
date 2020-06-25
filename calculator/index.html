@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+     
+     <div class="container">
+        <div>
+           <input  type="text" id="result">
+         </div>
+         <div class="main">
+            
+            <div id="keyboard">
+               <button type="button" onclick="clearResult()"     class="btn" style="background-color:orangered !important; color: white !important; border-color: white !important;"> <b>C</b> </button>
+               <button type="button" onclick="getNumber('%')" class="btn btngrn"><i class="fas fa-percent"></i></button>
+               <button type="button" onclick="getNumber('7')"  class="btn "> <b>7</b> </button>
+               <button type="button" onclick="getNumber('4')" class="btn  "><b>4</b></button>
+               <button type="button" onclick="getNumber('1')"  class="btn  "> <b>1</b> </button>
+               <button type="button" onclick="getNumber('.')" class="btn btnd"> <b>.</b> </button>
+            </div>
+            
+            <div id="keyboard">
+               <button type="button" onclick="getNumber('(')"  class="btn btngrn"><b>(</b></button>
+               <button type="button" onclick="getNumber('/')"  class="btn btngrn "><i class="fas fa-divide"></i></button>
+               <button type="button" onclick="getNumber('8')"  class="btn "><b>8</b></button>
+               <button type="button" onclick="getNumber('5')" class="btn  "><b>5</b></button>
+               <button type="button" onclick="getNumber('2')"  class="btn  "><b>2</b></button>
+               <button type="button" onclick="getNumber('0')" class="btn btn0"><b>0</b></button>
+            </div>
+            
+            <div id="keyboard">
+               <button type="button" onclick="getNumber(')')"  class="btn btngrn"><b>)</b></button>
+               <button type="button" onclick="getNumber('*')"  class="btn btngrn "> <i class="fas fa-times"></i> </button>
+               <button type="button" onclick="getNumber('9')"  class="btn "><b>9</b></button>
+               <button type="button" onclick="getNumber('6')" class="btn  "> <b>6</b> </button>
+               <button type="button" onclick="getNumber('3')"  class="btn  "><b>3</b></button>
+               
+            </div>
+
+            <div id="keyboard">
+               <button type="button"  onclick="lstClear()"class="bcksp" style="padding-right: 10px; background-color:orangered !important; color: white !important; border-color: white !important;"> <i class='fas fa-backspace' style='font-size:32px;color:white'></i></button>
+               <button type="button" onclick="getNumber('+')"  class="btn btngrn "><i class="fas fa-plus"></i></button>
+               <button type="button" onclick="getNumber('-')" class="btn btngrn "><i class="fas fa-minus"></i></button>
+               <button type="button" onclick="getResult()" class="btn btneql" style="color: white !important;"><i class="fas fa-equals"></i></button>
+               
+            </div>
+         
+       </div>
+    
+    <script src="app.js"></script>
+  </body>
+</html>

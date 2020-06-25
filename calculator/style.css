@@ -1,0 +1,168 @@
+body{
+  background: url('image/bkimg.jpg');
+}
+.container{
+  background-color: black;
+  width: 25% !important;
+  padding: 0 !important;
+  border: 2px solid greenyellow !important;
+  border-radius: 20px !important;
+  margin: auto;
+  margin-top: 3%;
+}
+.btn{
+   width: 100% !important;
+   margin-top: 10px;
+   font-weight: bolder !important;
+   height: 50px !important;
+   font-size: 20px !important;
+   background-color: white !important;
+   border-radius: 50px !important;
+   color: black !important;
+   border: 2px solid greenyellow !important;
+   outline: none !important;
+   transition: 1s all;
+   box-sizing: border-box;
+  }
+.main{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+#keyboard{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 20%;
+}
+.main :nth-child(6){
+   margin-bottom: 10px;
+}
+.btn0{
+   width: 230% !important ;
+   margin-top: 10px;
+   font-weight: bolder !important;
+   height: 50px !important;
+   font-size: 20px !important;
+   background-color: white !important;
+   border-radius: 50px !important;
+   color: black !important;
+   border: 2px solid greenyellow !important;
+   outline: none !important;
+   transition: 1s all;
+   box-sizing: border-box;
+}
+
+.btneql{
+    height: 170px !important;
+    color: green !important;
+    background-color: orange !important;
+    border: 2px solid greenyellow !important;
+}
+.btngrn{
+   color: green !important;
+   background-color: orange !important;
+   border: 2px solid greenyellow !important;
+}
+.btnd{
+  color: green !important;
+}
+#result{
+   background-color: black !important;
+   border-radius: 16px !important;
+   width: 95.5%;
+   outline: none !important;
+   height: 120px !important;
+   color: white !important;
+   border: 2px solid greenyellow !important;
+   font-size: 30px;
+   padding-left: 10px;
+   letter-spacing: 0.2em;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: yellowgreen !important;
+  color: white !important;
+  
+}
+.bcksp{
+   background-color: orange !important;
+   border: 2px solid white !important;
+   width: 100% !important;
+   margin-top: 10px;
+   height: 50px !important;
+   font-size: 20px !important;
+   border-radius: 50px !important;
+   outline: none !important;
+   transition: 1s all;
+   box-sizing: border-box;
+   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    margin: 0 !important;
+     padding: 0 5px 0 0 !important; 
+  }
+  .container{
+    width: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+  .btn{
+    height: 70px !important;
+  }
+  .btneql{
+    height: 47% !important;
+  }
+  .bcksp{
+    height: 70px !important;
+  }
+  #result{
+    width: 95.5% !important;
+    height: 178px !important;
+    border-radius: 0 !important;
+    font-size: 50px !important;
+  }
+}
+@media screen and (max-width: 786px) And (min-width: 601px) {
+  .container{
+    width: 70% !important;
+    margin-top: 20% !important;
+   }
+  .btn{
+    height: 90px !important;
+  }
+  .btneql{
+    height: 47% !important;
+  }
+  .bcksp{
+    height: 90px !important;
+  }
+  #result{
+    width: 97% !important;
+    height: 178px !important;
+    font-size: 50px !important;
+  }
+}
+@media screen and (max-width: 1024px) And (min-width: 787px) {
+  .container{
+    width: 50% !important;
+    margin-top: 30% !important;
+  }
+  .btn{
+    height: 90px !important;
+  }
+  .btneql{
+    height: 47% !important;
+  }
+.bcksp{
+  height: 90px !important;
+}
+  #result{
+    width: 97% !important;
+    height: 178px !important;
+    font-size: 50px !important;
+  }
+}
