@@ -2,15 +2,18 @@ body{
   background: url('image/bkimg.jpg');
 }
 .container{
+  box-sizing: border-box;
   background-color: black;
   width: 25% !important;
   padding: 0 !important;
   border: 2px solid greenyellow !important;
   border-radius: 20px !important;
   margin: auto;
-  margin-top: 3%;
+  margin-top: 5%;
+  padding: 10px !important;
 }
 .btn{
+  box-sizing: border-box;
    width: 100% !important;
    margin-top: 10px;
    font-weight: bolder !important;
@@ -22,25 +25,22 @@ body{
    border: 2px solid greenyellow !important;
    outline: none !important;
    transition: 1s all;
-   box-sizing: border-box;
+  
   }
 .main{
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
-     justify-content: space-around;
+     justify-content: space-between;
 }
 #keyboard{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 20%;
-}
-.main :nth-child(6){
-   margin-bottom: 10px;
+  width: 23%;
 }
 .btn0{
-   width: 230% !important ;
+   width: 215% !important ;
    margin-top: 10px;
    font-weight: bolder !important;
    height: 50px !important;
@@ -69,16 +69,18 @@ body{
   color: green !important;
 }
 #result{
-   background-color: black !important;
+  box-sizing: border-box;
+   background-color: white !important;
    border-radius: 16px !important;
-   width: 95.5%;
+   width: 100%;
    outline: none !important;
    height: 120px !important;
-   color: white !important;
+   color: black !important;
    border: 2px solid greenyellow !important;
    font-size: 30px;
    padding-left: 10px;
    letter-spacing: 0.2em;
+   
 }
 .btn:hover{
   cursor: pointer;
@@ -103,12 +105,12 @@ body{
 @media screen and (max-width: 600px) {
   body{
     margin: 0 !important;
-     padding: 0 5px 0 0 !important; 
   }
   .container{
     width: 100% !important;
     margin: 0 !important;
     border-radius: 0 !important;
+   
   }
   .btn{
     height: 70px !important;
@@ -120,7 +122,6 @@ body{
     height: 70px !important;
   }
   #result{
-    width: 95.5% !important;
     height: 178px !important;
     border-radius: 0 !important;
     font-size: 50px !important;
@@ -135,13 +136,12 @@ body{
     height: 90px !important;
   }
   .btneql{
-    height: 47% !important;
+    height: 48% !important;
   }
   .bcksp{
     height: 90px !important;
   }
   #result{
-    width: 97% !important;
     height: 178px !important;
     font-size: 50px !important;
   }
@@ -155,13 +155,12 @@ body{
     height: 90px !important;
   }
   .btneql{
-    height: 47% !important;
+    height: 48% !important;
   }
 .bcksp{
   height: 90px !important;
 }
   #result{
-    width: 97% !important;
     height: 178px !important;
     font-size: 50px !important;
   }
